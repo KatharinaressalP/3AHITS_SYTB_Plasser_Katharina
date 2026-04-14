@@ -1,5 +1,7 @@
 #!/bin/bash
 
+nano woerter.txt
+# Einfügen der Wörter in woerter.txt
 FILE="woerter.txt"
 COUNT=$(wc -l < "$FILE")
 SATZ=""
